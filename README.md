@@ -7,7 +7,7 @@ Image Retrieval using Deep Feature
 
 | Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays | finetuning | descriptor | 비고 |  
 | --- | --- | --- |--- |--- |--- |--- |--- |--- |
-| SOTA] |  86.1 | 94.5  |  82.8  |  90.6  |  90.3/94.8 | |  |  |
+| SOTA|  86.1 | 94.5  |  82.8  |  90.6  |  90.3/94.8 | |  |  |
 | [1] |  86.1 | 94.5  |  82.8  |  90.6  |  90.3/94.8 | Y | GD | DIR triplet, R-MAC |
 | [2] |  83.8 |  85.0 | 82.6  | 81.7| | Y | LD | delf, softmax |
 
