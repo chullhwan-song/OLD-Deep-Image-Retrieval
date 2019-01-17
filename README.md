@@ -14,3 +14,4 @@ Image Retrieval using Deep Feature
 [1] End-to-end Learning of Deep Visual Representations for Image Retrieval : [[paper]](https://arxiv.org/abs/1610.07940)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/17)
 
 [2] Large-Scale Image Retrieval with Attentive Deep Local Features : [[paper]](https://arxiv.org/abs/1612.06321)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/4)
+   * delf는 QE+DIR과의조합을 통해 SOTA를 기록한 Case임.
