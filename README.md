@@ -23,8 +23,12 @@ Image Retrieval using Deep Feature
 | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
 | SOTA|  0.712 |  0.805 |  0.672 | 0.733 | |  |  |
 | [1] | 0.712 |  0.805 |  0.672 | 0.733 |  |  | |  GD | CAM |
-| [2] | 46.2 | 67.4 | | | 74.6 | 46.5 | 90.6 |   |  | GD |  |
+| [2] | 53.3/58.9 |  67.0 | 48.9/57.8 |  71.6/80.2  | 37.7 | 84.2/91.3 |    |  | GD |  |
 
+| 53.3/58.9 |  67.0 | 48.9/57.8 |  71.6/80.2  | 37.7 | 84.2/91.3 | 
+
+ Oxford5k Paris6k Sculp6k Holidays UKB Ox105k
+ 
 * [1] Class-Weighted Convolutional Features for Visual Instance Search
 * [2] Visual Instance Retrieval with Deep Convolutional Networks
 
