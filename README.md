@@ -18,7 +18,7 @@ Image Retrieval using Deep Feature
    * delf는 QE+DIR과의조합을 통해 SOTA를 기록한 Case임.   
 * [3] CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples
 
-## Not Learning
+## Not Learnable
 | Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays | descriptor | 비고 |  
 | --- | --- | --- |--- |--- |--- |--- |--- |
 | SOTA|  0.712 |  0.805 |  0.672 | 0.733 | |  |  |
