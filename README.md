@@ -22,6 +22,6 @@ Image Retrieval using Deep Feature
 | Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays | descriptor | 비고 |  
 | --- | --- | --- |--- |--- |--- |--- |--- |
 | SOTA|  0.712 |  0.805 |  0.672 | 0.733 | |  |  |
-| [1] | 0.712 |  0.805 |  0.672 | 0.733 | GD | CAM |
+| [1] | 0.712 |  0.805 |  0.672 | 0.733 | | GD | CAM |
 
 * [1] Class-Weighted Convolutional Features for Visual Instance Search
