@@ -19,9 +19,12 @@ Image Retrieval using Deep Feature
 * [3] CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples
 
 ## Not Learnable (only trained on ImageNet)
-| Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays | descriptor | 비고 |  
-| --- | --- | --- |--- |--- |--- |--- |--- |
+| Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays | Sculp6k | UKB | descriptor | 비고 |  
+| --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
 | SOTA|  0.712 |  0.805 |  0.672 | 0.733 | |  |  |
-| [1] | 0.712 |  0.805 |  0.672 | 0.733 | | GD | CAM |
+| [1] | 0.712 |  0.805 |  0.672 | 0.733 |  |  | |  GD | CAM |
+| [2] | 46.2 | 67.4 | | | 74.6 | 46.5 | 90.6 |   |  | GD |  |
 
 * [1] Class-Weighted Convolutional Features for Visual Instance Search
+* [2] Visual Instance Retrieval with Deep Convolutional Networks
+
