@@ -5,7 +5,7 @@ Image Retrieval using Deep Feature
 * GD : Global Descriptor
 * LD :  Local Descriptor
 
-## Learnable (finetunig using targeted datasets)
+## Learnable (fine-tuning using targeted datasets)
 | Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays |descriptor | 비고 |  
 | --- | --- | --- |--- |--- |--- |--- |--- |
 | SOTA|  86.1 | 94.5  |  82.8  |  90.6  |  90.3/94.8 | |  |  |
