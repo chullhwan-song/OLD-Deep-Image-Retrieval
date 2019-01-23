@@ -1,11 +1,28 @@
 # Image-Retrieval
 Image Retrieval using Deep Feature
 
+## Instance benchmark dataset
+
+| NO | Title | 카테고리 | link| category| query | all | |
+| --- | --- | --- | --- |--- |--- |--- |--- |
+| 1 | Oxford5k | landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/) |  16  |  55 |  5,062 | 
+| 2 | Paris6k| landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/) |  11 | 55 |  6,412|
+| 3 | Holidays | landmark |[링크](http://lear.inrialpes.fr/~jegou/data.php) |  500| 500|  1,491|
+| 4 | Google-Landmarks | landmark | [링크](https://www.kaggle.com/c/landmark-recognition-challenge/data) |  12,894| 100,000 |  1,060,709 |
+| 5 | UKBench | landmark  | [링크](https://archive.org/details/ukbench) |  2,550 | 10,200|  10,200|
+| 6 | FlickrLogos-32| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  32 | 500|  8,240|
+|  7 | FlickrLogos-47| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  47  | ? |  ? |
+|  8 | INSTRE|  Instance  | [링크](http://isia.ict.ac.cn/dataset/instre.html) |  200  | N/A |  28,543 |
+|  9 | ZuBuD|  landmark | [링크](http://www.vision.ee.ethz.ch/showroom/zubud/) |  200 |115 |  1,005|
+|  10 | SMVS|  표지류 | [링크](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/stanford/mvs_images/) |  1,200 |3,300|  1,200|
+| 11 | DupImage| Instance   | [링크](https://pan.baidu.com/s/1jGETFUm) | 33 | 108 |  1,104 |
+| 12 | Neural Codes | landmark |  [링크](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | 672 | |  213,678 | 정제무- only text|
+
+## Learnable (fine-tuning using targeted datasets)
 * QE performance remvoe
 * GD : Global Descriptor
 * LD :  Local Descriptor
 
-## Learnable (fine-tuning using targeted datasets)
 | Paper | Oxf5k |  Par6k |  Oxf105k |  Par106k |  Holidays |descriptor | 비고 |  
 | --- | --- | --- |--- |--- |--- |--- |--- |
 | SOTA|  86.1 | 94.5  |  82.8  |  90.6  |  90.3/94.8 | |  |  |
@@ -24,29 +41,10 @@ Image Retrieval using Deep Feature
 | SOTA|  0.712 |  0.805 |  0.672 | 0.733 | |  |  |
 | [1] | 0.712 |  0.805 |  0.672 | 0.733 |  |  | |  GD | CAM |
 | [2] | 53.3  |  67.0 | 48.9 |   | 71.6 | 37.7  | 84.2   | GD | MAC (first paper), Max pooling + l1 dist | 
-
-   
-
- Oxford5k Paris6k Sculp6k Holidays UKB Ox105k
  
 * [1] Class-Weighted Convolutional Features for Visual Instance Search
 * [2] Visual Instance Retrieval with Deep Convolutional Networks
 
-### Instance benchmark dataset
 
-| NO | Title | 카테고리 | link| category| query | all | |
-| --- | --- | --- | --- |--- |--- |--- |--- |
-| 1 | Oxford5k | landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/) |  16  |  55 |  5,062 | 
-| 2 | Paris6k| landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/) |  11 | 55 |  6,412|
-| 3 | Holidays | landmark |[링크](http://lear.inrialpes.fr/~jegou/data.php) |  500| 500|  1,491|
-| 4 | Google-Landmarks | landmark | [링크](https://www.kaggle.com/c/landmark-recognition-challenge/data) |  12,894| 100,000 |  1,060,709 |
-| 5 | UKBench | landmark  | [링크](https://archive.org/details/ukbench) |  2,550 | 10,200|  10,200|
-| 6 | FlickrLogos-32| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  32 | 500|  8,240|
-|  7 | FlickrLogos-47| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  47  | ? |  ? |
-|  8 | INSTRE|  Instance  | [링크](http://isia.ict.ac.cn/dataset/instre.html) |  200  | N/A |  28,543 |
-|  9 | ZuBuD|  landmark | [링크](http://www.vision.ee.ethz.ch/showroom/zubud/) |  200 |115 |  1,005|
-|  10 | SMVS|  표지류 | [링크](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/stanford/mvs_images/) |  1,200 |3,300|  1,200|
-| 11 | DupImage| Instance   | [링크](https://pan.baidu.com/s/1jGETFUm) | 33 | 108 |  1,104 |
-| 12 | Neural Codes | landmark |  [링크](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | 672 | |  213,678 | 정제무- only text|
 
  
