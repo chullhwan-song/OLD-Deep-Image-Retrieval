@@ -3,7 +3,7 @@ Image Retrieval using Deep Feature
 
 ## Instance benchmark dataset
 
-| NO | Title | 카테고리 | link| category| query | all |  |
+| NO | Title | 카테고리 | link| category| query | all | 비고  |
 | --- | --- | --- | --- |--- |--- |--- |--- |
 | 1 | Oxford5k | landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/) |  16  |  55 |  5,062 | 
 | 2 | Paris6k| landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/) |  11 | 55 |  6,412|
