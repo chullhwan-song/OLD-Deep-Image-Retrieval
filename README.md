@@ -18,6 +18,8 @@ Image Retrieval using Deep Feature
 | 11 | DupImage| Instance   | [링크](https://pan.baidu.com/s/1jGETFUm) | 33 | 108 |  1,104 |
 | 12 | Neural Codes | landmark |  [링크](http://sites.skoltech.ru/compvision/projects/neuralcodes/) | 672 | |  213,678 | 정제무- only text|
 
+## [평가 방법](https://github.com/chullhwan-song/Image-Retrieval/issues/1)
+
 ## Learnable (fine-tuning using targeted datasets)
 * QE performance remvoe
 * GD : Global Descriptor
