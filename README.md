@@ -21,7 +21,7 @@ Image Retrieval using Deep Feature
 ## [평가 방법](https://github.com/chullhwan-song/Image-Retrieval/issues/1)
 
 ## Learnable (fine-tuning using targeted datasets)
-* QE performance remvoe
+* QE performance remove
 * GD : Global Descriptor
 * LD :  Local Descriptor
 
