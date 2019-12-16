@@ -2,6 +2,8 @@
 Image Retrieval using Deep Feature
 
 ## My Experiements 
+* These results show the best performance among the models generated during training.
+
 ##### update : 2019-12-16
 
 | | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
