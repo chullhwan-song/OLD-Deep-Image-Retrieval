@@ -2,6 +2,8 @@
 Image Retrieval using Deep Feature
 
 ## My Experiements 
+
+##### notify
 * These results show the best performance among the models generated during training.
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
 
