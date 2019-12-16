@@ -8,7 +8,7 @@ Image Retrieval using Deep Feature
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | [0] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
 | 1 | resnet152 | spoc  |   0.852   | 0.697  |  0.647 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 1 | resnet152 | gem  |   0.9048   | 0.8676  |  0.7217 | 1024 | npairs loss  |  neuralcode | imagenet |
+| 2 | resnet152 | gem  |   0.9048   | 0.8676  |  0.7217 | 1024 | npairs loss  |  neuralcode | imagenet |
 
 * [0] Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 
