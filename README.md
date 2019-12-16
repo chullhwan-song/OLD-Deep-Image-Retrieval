@@ -2,6 +2,7 @@
 Image Retrieval using Deep Feature
 
 ## My Experiements 
+##### update : 2019-12-16
 
 | | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
