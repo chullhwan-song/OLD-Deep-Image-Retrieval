@@ -1,6 +1,16 @@
 # Image-Retrieval
 Image Retrieval using Deep Feature
 
+## My Experiements 
+
+| | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
+| :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
+| [0] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
+| 1 | resnet152 | gem  |    0.9048   | 0.8676  |  0.7217 | 1024 | cls  |  neuralcode | imagenet |
+
+* [0] Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
+
+
 ## Instance benchmark dataset
 
 | NO | Title | 카테고리 | link| category| query | all | 비고  |
