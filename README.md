@@ -13,7 +13,7 @@ Image Retrieval using Deep Feature
 | | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-| 1 | resnet152 | spoc  |   0.549 | 0.4612  |  0.259 | 1024 | npairs loss  |  neuralcode | NO |
+| 1 | resnet152 | spoc  |   0.549 | 0.461  |  0.259 | 1024 | npairs loss  |  neuralcode | NO |
 | 2 | resnet152 | spoc  |   0.852   | 0.697  |  0.647 | 1024 | npairs loss  |  neuralcode | imagenet |
 | 3 | resnet152 | gem  |   0.905   | 0.868  |  0.722 | 1024 | npairs loss  |  neuralcode | imagenet |
 
