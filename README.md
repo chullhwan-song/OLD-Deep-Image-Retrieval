@@ -27,8 +27,8 @@ Image Retrieval using Deep Feature
 | 1 | Oxford5k | landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/) |  16  |  55 |  5,062 | 
 | 2 | Paris6k| landmark |[링크](http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/) |  11 | 55 |  6,412|
 | 3 | Holidays | landmark |[링크](http://lear.inrialpes.fr/~jegou/data.php) |  500| 500|  1,491|
-| 4 | Google-Landmarks_V1 |landmark |[링크](https://www.kaggle.com/c/landmark-recognition-challenge/data) | 12,894| 100,000 |  1,060,709 |
-| 4 | Google-Landmarks_V2 | landmark | [링크](https://github.com/cvdfoundation/google-landmark) | 203,094 | 117,577 | 5,012,248 |
+| 4 | Google-Landmarks_V1 |landmark |[링크](https://www.kaggle.com/c/landmark-recognition-challenge/data) | 12,894| 100,000 |  1,060,709 | textbysearch |
+| 4 | Google-Landmarks_V2 | landmark | [링크](https://github.com/cvdfoundation/google-landmark) | 203,094 | 117,577 | 5,012,248 | textbysearch |
 | 5 | UKBench | landmark  | [링크](https://archive.org/details/ukbench) |  2,550 | 10,200|  10,200|
 | 6 | FlickrLogos-32| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  32 | 500|  8,240|
 |  7 | FlickrLogos-47| logo | [링크](http://www.multimedia-computing.de/flickrlogos/) |  47  | ? |  ? |
