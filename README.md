@@ -1,4 +1,4 @@
-# Image-Retrieval
+# Deep Image Retrieval
 Image Retrieval using Deep Feature
 
 ## My Experiements 
