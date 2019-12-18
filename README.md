@@ -11,7 +11,7 @@ Image Retrieval using Deep Feature
 
 ##### update : 2019-12-18
 
-| | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
+| NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
 | 1 | resnet152 | spoc  |   0.549 | 0.461  |  0.259 | 1024 | npairs loss  |  neuralcode | NO |
