@@ -9,14 +9,14 @@ Image Retrieval using Deep Feature
 * using tensorflow
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
-##### update : 2019-12-17
+##### update : 2019-12-18
 
 | | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
 | 1 | resnet152 | spoc  |   0.549 | 0.461  |  0.259 | 1024 | npairs loss  |  neuralcode | NO |
 | 2 | resnet152 | spoc  |   0.852   | 0.697  |  0.647 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 3 | resnet152 | gem  |   0.905   | 0.868  |  0.747 | 1024 | npairs loss  |  neuralcode | imagenet |
+| 3 | resnet152 | gem  |   0.905   | 0.868  |  0.7495 | 1024 | npairs loss  |  neuralcode | imagenet |
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 
