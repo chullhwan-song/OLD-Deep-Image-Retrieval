@@ -4,6 +4,7 @@ Image Retrieval using Deep Feature
 ## My Experiements 
 
 ##### notify
+* My individual review  is that methods such as multiscale input images, multiple backbone networks, QE, etc. are not practical and are just tricks to increase performance. So, in this experiment I avoid this method as much as possible, and I will try to achieve SOTA in a way that is as true to the basics as possible.
 * These results show only the best results for each evaluation set(Oxford5k, Paris6k, Holidays) among the results of applying the model generated during training. 
 That is, it is not a result of a single model. Of course, one model may yield the best results for all evaluation sets.
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
