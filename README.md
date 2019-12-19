@@ -4,7 +4,7 @@ Image Retrieval using Deep Feature
 ## My Experiements 
 
 ##### notify
-* These results show the best performance among the models generated during training.
+* These results show only the best results for each set of assessments among the results of applying the model generated during training. In other words, it is not the result of all the best evaluation sets in a particular model.
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
 * using tensorflow
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
