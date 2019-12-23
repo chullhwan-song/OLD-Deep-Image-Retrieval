@@ -11,7 +11,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
-##### update : 2019-12-19
+##### update : 2019-12-23
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
