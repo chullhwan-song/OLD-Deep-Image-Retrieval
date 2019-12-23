@@ -19,8 +19,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | 1 | resnet152 | spoc  |   0.549 | 0.461  |  0.259 | 1024 | npairs loss  |  neuralcode | NOT |
 | 2 | resnet152 | spoc  |   0.852   | 0.697  |  0.647 | 1024 | npairs loss  |  neuralcode | imagenet |
 | 3 | resnet152 | mac  |   0.89    | 0.851  |  0.7369 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 4 | resnet152 | gem  |   0.905   | 0.868  | 0.7896 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 4 | resnet152 | gem:single model  |   0.883	| 0.8533 |	0.777 | 1024 | npairs loss  |  neuralcode | imagenet |
+| 4-1 | resnet152 | gem  |   0.905   | 0.868  | 0.7896 | 1024 | npairs loss  |  neuralcode | imagenet |
+| 4-2 | resnet152 | gem:single model  |   0.883	| 0.8533 |	0.777 | 1024 | npairs loss  |  neuralcode | imagenet |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
