@@ -16,7 +16,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-|  | resnet152 | gem:single | 0.9026 | 0.8857 |	0.749 | 1024 | npairs loss  |  neuralcode | imagenet | tf |
+|  | res152 | gem:single | 0.9026 | 0.8857 |	0.749 | 1024 | npairs loss  |  neuralcode | imagenet | tf |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
