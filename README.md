@@ -8,15 +8,15 @@ Image Retrieval using Deep Feature
 * These results show only the best results for each evaluation set(Oxford5k, Paris6k, Holidays) among the results of applying the model generated during training. 
 That is, it is not a result of a single model. Of course, one model may yield the best results for all evaluation sets.
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
-* using tensorflow
+* using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
 ##### update : 2020-01-03
 
-| NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
-| :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
+| NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained | lib |
+| :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-|  | resnet152 | gem:single model | 0.9026 | 0.8857 |	0.749 | 1024 | npairs loss  |  neuralcode | imagenet |
+|  | resnet152 | gem:single model | 0.9026 | 0.8857 |	0.749 | 1024 | npairs loss  |  neuralcode | imagenet | tf |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
