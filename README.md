@@ -11,17 +11,12 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
-##### update : 2019-12-23
+##### update : 2020-01-03
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | refer[1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-| 1 | resnet152 | spoc  |   0.549 | 0.461  |  0.259 | 1024 | npairs loss  |  neuralcode | NOT |
-| 2 | resnet152 | spoc   |   0.852    | 0.697  |  0.647 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 3-1 | resnet152 | mac  |   0.89    | 0.851  |  0.7369 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 3-2 | resnet152 | mac:single mode  |  0.8867 | 0.8418|  0.7099 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 4-1 | resnet152 | gem  |   0.905   | 0.868  | 0.79 | 1024 | npairs loss  |  neuralcode | imagenet |
-| 4-2 | resnet152 | gem:single model |   0.883	| 0.8533 |	0.777 | 1024 | npairs loss  |  neuralcode | imagenet |
+|  | resnet152 | gem:single model | 0.9026 | 0.8857 |	0.749 | 1024 | npairs loss  |  neuralcode | imagenet |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
