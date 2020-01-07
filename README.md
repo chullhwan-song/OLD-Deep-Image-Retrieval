@@ -11,12 +11,12 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
-##### update : 2020-01-03
+##### update : 2020-01-07
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-|  | res152 | gem  | 0.9026 | 0.8927 |	0.761  | 1024 | npairs  |  neuralcode | imagenet | tf |
+|  | res152 | gem  | 0.9026 | 0.8927 |	0.7706  | 1024 | npairs  |  neuralcode | imagenet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.75073 | 1024 | npairs  |  neuralcode | imagenet | tf |
 
 
