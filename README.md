@@ -18,7 +18,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
 |  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  neuralcode | imagenet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.75073 | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | mac        | 0.8727 |  0.805 |	0.6904  | 1024 | npairs  |  neuralcode | imagenet | tf |
+|  | res152 | mac        | 0.8727 |  0.8085 |	0.6938  | 1024 | npairs  |  neuralcode | imagenet | tf |
 |  | res152 | mac:single | 0.8727 |  0.805 |	0.6904 | 1024 | npairs  |  neuralcode | imagenet | tf |
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
