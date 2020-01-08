@@ -22,6 +22,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 |  | res152 | mac:single | 0.8823 | 0.8165 |  0.7056  | 1024 | npairs  |  neuralcode | imagenet | tf |
 |  | res152 | spoc        | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  neuralcode | imagenet | tf |
 |  | res152 | spoc:single | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  neuralcode | imagenet | tf |
+|  | res101 | r-mac  | 0.83 | 0.74 |  0.852   | 1024 | tripletloss  |  neuralcode | imagenet | pytorch |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
