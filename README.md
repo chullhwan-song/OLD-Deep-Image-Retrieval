@@ -16,16 +16,18 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imagenet |
-|  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | gem:single | 0.9001 |  0.8927 |	0.75073 | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | mac        | 0.8823 | 0.8165 |  0.7103  | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | mac:single | 0.8823 | 0.8165 |  0.7056  | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | spoc        | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res152 | spoc:single | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  neuralcode | imagenet | tf |
-|  | res101 | r-mac  | 0.83 | 0.74 |  0.852   | 1024 | triplet  |  neuralcode | imagenet | pytorch |
+|  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imagenet | tf |
+|  | res152 | gem:single | 0.9001 |  0.8927 |	0.75073 | 1024 | npairs  |  nc | imagenet | tf |
+|  | res152 | mac        | 0.8823 | 0.8165 |  0.7103  | 1024 | npairs  |  nc | imagenet | tf |
+|  | res152 | mac:single | 0.8823 | 0.8165 |  0.7056  | 1024 | npairs  |  nc | imagenet | tf |
+|  | res152 | spoc        | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  nc | imagenet | tf |
+|  | res152 | spoc:single | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  nc | imagenet | tf |
+|  | res101 | r-mac  | 0.83 | 0.74 |  0.852   | 1024 | triplet  |  nc | imagenet | pytorch |
 
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
+* nc: neuralcode clean dataset
+* triplet : triplet loss
 
 
 ## Instance benchmark dataset
