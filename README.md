@@ -18,8 +18,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imgnet |
 |  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | mac        | 0.8823 | 0.8165 |  0.7103  | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | mac:single | 0.8823 | 0.8165 |  0.7056  | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | mac        | 0.8823 | 0.833 |  0.7357  | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | mac:single |  0.8805  | 0.833 |  0.7357   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc        | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc:single | 0.8626 | 0.7366 |  0.5833   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res101 | r-mac  | 0.83 |  0.852 |  0.74   | 1024 | triplet  |  nc | imgnet | pyt |
