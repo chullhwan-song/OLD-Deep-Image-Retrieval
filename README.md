@@ -14,7 +14,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 ##### update : 2020-01-08
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
-| :--- | :--- | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
+| :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imgnet |
 |  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
