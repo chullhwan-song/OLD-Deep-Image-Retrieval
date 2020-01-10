@@ -20,8 +20,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | mac        | 0.8888  | 0.845|  0.74785   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | mac:single |  0.8888  | 0.845|  0.74785     | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | spoc        | 0.8845| 0.7921  |  0.6852 | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | spoc:single | 0.8845| 0.7921  |  0.6852   | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | spoc        | 0.8845| 0.8058  |  0.6961 | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | spoc:single | 0.8833 | 0.8058  |  0.6961  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res101 | r-mac  | 0.83 |  0.8535 |  0.74   | 1024 | triplet  |  nc | imgnet | pyt |
 
 
