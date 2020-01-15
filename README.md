@@ -18,7 +18,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  neuralcode | imgnet |
 |  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | mac        |  0.8983 | 0.872 |  0.7681   | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | mac        |  0.8983 | 0.872 |  0.7702   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | mac:single |   0.8983 | 0.8702|  0.7636   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
