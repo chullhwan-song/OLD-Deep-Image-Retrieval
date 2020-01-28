@@ -16,13 +16,13 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 | [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  nc | imgnet |
-|  | res152 | gem        | 0.9026 | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
+|  | res152 | gem        | **0.9026** | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | mac        |  0.8983 | 0.8779 |  0.7732   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | mac:single |   0.8983 | 0.8702|  0.7636   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
-|  | res101 | r-mac  | 0.8483 |  0.9031 |  0.7937   | 2048 | triplet  |  nc | imgnet | pyt |
+|  | res101 | r-mac  | 0.8483 |  **0.9031** |  **0.7937**   | 2048 | triplet  |  nc | imgnet | pyt |
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
