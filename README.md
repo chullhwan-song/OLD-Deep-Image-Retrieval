@@ -23,7 +23,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 |  | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
 |  | res101 | r-mac  | 0.8527 |   **0.9104** |  **0.8018**   | 2048 | triplet  |  nc | imgnet | pyt |
-|  | res152 | r-mac  | 0.826 |  0.88 |  0.7315   | 2048 | triplet  |  nc | imgnet | pyt |
+|  | res152 | r-mac  | 0.826 |  0.883 |  0.7334   | 2048 | triplet  |  nc | imgnet | pyt |
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
