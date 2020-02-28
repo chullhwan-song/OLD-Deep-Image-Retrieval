@@ -11,7 +11,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 
-##### update : 2020-02-26
+##### update : 2020-02-28
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
@@ -22,8 +22,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 |  | res152 | mac:single |   0.8983 | 0.8702|  0.7636   | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
 |  | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
-|  | res101 | r-mac  | 0.8527 |   **0.9104** |  **0.8018**   | 2048 | triplet  |  nc | imgnet | pt |
-|  | res152 | r-mac  | 0.8366 |  0.904 |  0.762   | 2048 | triplet  |  nc | imgnet | pt |
+|  | res101 | r-mac  | 0.8527 |  0.9104 |  **0.8018**   | 2048 | triplet  |  nc | imgnet | pt |
+|  | res152 | r-mac  | 0.842 |  **0.911** |  0.777   | 2048 | triplet  |  nc | imgnet | pt |
 
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
