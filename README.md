@@ -10,6 +10,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
+* pytorch gem [1-9][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
 
 ##### update : 2020-03-30  (Currently in progress)
 
