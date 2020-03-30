@@ -31,7 +31,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 ##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
-| [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 0.8114 |  0.661 | 0.4207 | 2048 | triplet  |  nc | imgnet | pt |
+| [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 0.8142 |  0.6637 | 0.4258 | 2048 | triplet  |  nc | imgnet | pt |
 | [2-2]  | res101 | gem  | 0.6354 |  0.4489 | 0.1596   | 0.8228 |  0.64925 | 0.3875| 2048 | contrastive  |  SfM | imgnet | pt |
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
