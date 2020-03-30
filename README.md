@@ -25,8 +25,16 @@ That is, it is not a result of a single model. Of course, one model may yield th
 |  | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 |  | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 
+##### update : 2020-03-30
+| NO | net| feat | rox_e  | rox_m  | rox_h |  dim | loss | trainset | pre-trained| lib |
+| :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
+|  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 2048 | triplet  |  nc | imgnet | pt |
+
 * refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
+* SfM: retrieval-SfM-120k
+* rox:  revisitop_oxford 
+* e:easy, m:middle, h:hard
 * triplet : triplet loss
 * imgnet : imagenet
 * tf : tensorflow
