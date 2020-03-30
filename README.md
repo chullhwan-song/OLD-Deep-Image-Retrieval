@@ -26,14 +26,16 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 
 ##### update : 2020-03-30
-| NO | net| feat | rox_e  | rox_m  | rox_h |  dim | loss | trainset | pre-trained| lib |
-| :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
-| [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 2048 | triplet  |  nc | imgnet | pt |
+| NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
+| :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
+| [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 0.8114 |  0.661 | 0.10082048 | triplet  |  nc | imgnet | pt |
+| [2-2]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 0.5988 |  0.4207 | 0.10082048 | triplet  |  nc | imgnet | pt |
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
 * SfM: retrieval-SfM-120k
 * rox:  revisitop_oxford 
+* rpa: revisitop_rparis
 * e:easy, m:middle, h:hard
 * triplet : triplet loss
 * imgnet : imagenet
