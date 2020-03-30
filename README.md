@@ -25,7 +25,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 
-##### update : 2020-03-30
+##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
 | [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 0.8114 |  0.661 | 0.4207 | 2048 | triplet  |  nc | imgnet | pt |
