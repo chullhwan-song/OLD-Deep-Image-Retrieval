@@ -15,22 +15,22 @@ That is, it is not a result of a single model. Of course, one model may yield th
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
-| [1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  nc | imgnet |
-|  | res152 | gem        | **0.9026** | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | mac        |  0.8983 | 0.8779 |  0.7732   | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | mac:single |   0.8983 | 0.8702|  0.7636   | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
-|  | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
-|  | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
-|  | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
+| [1-1] | alexnet | fc6 |    0.789   |   |  0.557 |  128 | cls  |  nc | imgnet |
+| [1-2] | res152 | gem        | **0.9026** | 0.8927 |	0.7808  | 1024 | npairs  |  nc | imgnet | tf |
+| [1-3] | res152 | gem:single | 0.9001 |  0.8927 |	0.7507 | 1024 | npairs  |  nc | imgnet | tf |
+| [1-4]| res152 | mac        |  0.8983 | 0.8779 |  0.7732   | 1024 | npairs  |  nc | imgnet | tf |
+| [1-5]  | res152 | mac:single |   0.8983 | 0.8702|  0.7636   | 1024 | npairs  |  nc | imgnet | tf |
+| [1-6] | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
+| [1-7] | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
+| [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
+| [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 
 ##### update : 2020-03-30
 | NO | net| feat | rox_e  | rox_m  | rox_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
-|  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 2048 | triplet  |  nc | imgnet | pt |
+| [2-1]  | res101 | r-mac  | 0.5988 |  0.3976 | 0.1008   | 2048 | triplet  |  nc | imgnet | pt |
 
-* refer[1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
+* refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
 * SfM: retrieval-SfM-120k
 * rox:  revisitop_oxford 
