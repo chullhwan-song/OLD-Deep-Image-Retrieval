@@ -26,13 +26,13 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-7] | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
-| [1-9] | res101 | gem   |  |0.829  |   0.707   | 2048 | contrastive  |  SfM | imgnet | pt |
+| [1-9] | res101 | gem   |  |0.84  |   0.7229   | 2048 | contrastive  |  SfM | imgnet | pt |
 
 ##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
 | [2-1]  | res101 | r-mac  | 0.5991 |  0.4101 | 0.1336   | 0.8157 |  0.6637 | 0.4258 | 2048 | triplet  |  nc | imgnet | pt |
-| [2-2]  | res101 | gem  | 0.6537 |  0.4591 | 0.163   | 0.8283 |  0.6547 | 0.394| 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-2]  | res101 | gem  | 0.6727 |  0.4703 | 0.1665   | 0.834 |  0.6607 | 0.4006 | 2048 | contrastive  |  SfM | imgnet | pt |
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
