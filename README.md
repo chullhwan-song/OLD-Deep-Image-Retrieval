@@ -11,7 +11,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 * pytorch gem [1-10][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
-* [1-11]&[2-3] si [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s results
+* [1-11]&[2-3] are [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s results
 
 ##### update : 2020-03-30  (Currently in progress)
 
@@ -27,7 +27,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-10] | res101 | gem   |  |0.84  |   0.7229   | 2048 | contrastive  |  SfM | imgnet | pt |
-| [1-11],[ | res101 | gem   |  |0.8279  |   0.779   | 2048 | contrastive  |  SfM | imgnet | pt |
+| [1-11] | res101 | gem   |  |0.8279  |   0.779   | 2048 | contrastive  |  SfM | imgnet | pt |
 
 ##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
