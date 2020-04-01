@@ -32,8 +32,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 ##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
-| [2-1]  | res101 | r-mac  | 0.5991 |  0.4101 | 0.1336   | 0.8165 |  0.6698 | 0.4353 | 2048 | triplet  |  nc | imgnet | pt |
-| [2-2]  | res101 | gem  | 0.6727 |  0.4703 | 0.1665   | 0.834 |  0.6607 | 0.4006 | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-1]  | res101 | r-mac  | 0.5995 |  0.4156 | 0.1369   | 0.8202 |  0.6751 | 0.4402 | 2048 | triplet  |  nc | imgnet | pt |
+| [2-2]  | res101 | gem  | 0.693 |  0.4816 | 0.17   | 0.838 |  0.6656 | 0.4059 | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-3]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
 
 
