@@ -10,8 +10,8 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
-* pytorch gem [1-9][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
-
+* pytorch gem [1-10][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
+* [1-11]&[2-3] si [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s results
 
 ##### update : 2020-03-30  (Currently in progress)
 
@@ -26,13 +26,16 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-7] | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
-| [1-9] | res101 | gem   |  |0.84  |   0.7229   | 2048 | contrastive  |  SfM | imgnet | pt |
+| [1-10] | res101 | gem   |  |0.84  |   0.7229   | 2048 | contrastive  |  SfM | imgnet | pt |
+| [1-11],[ | res101 | gem   |  |0.8279  |   0.779   | 2048 | contrastive  |  SfM | imgnet | pt |
 
 ##### update : 2020-03-30 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
 | [2-1]  | res101 | r-mac  | 0.5991 |  0.4101 | 0.1336   | 0.8165 |  0.6698 | 0.4353 | 2048 | triplet  |  nc | imgnet | pt |
 | [2-2]  | res101 | gem  | 0.6727 |  0.4703 | 0.1665   | 0.834 |  0.6607 | 0.4006 | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-3]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
+
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
@@ -44,6 +47,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * imgnet : imagenet
 * tf : tensorflow
 * pt : pytorch
+
 
 ## Instance benchmark dataset
 
