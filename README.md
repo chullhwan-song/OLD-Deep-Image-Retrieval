@@ -4,14 +4,14 @@ Image Retrieval using Deep Feature
 ## My Experiements 
 
 ##### notify
-* My individual review  is that methods such as multiscale input images, multiple backbone networks, QE, etc. are not practical and are just tricks to increase performance. In this experiments, I avoid the above mentioned methods as much as possible, and I will try to achieve SOTA in a way that is as true to the basics as possible.
+* My individual review  **is that methods such as multiscale input images, multiple backbone networks, QE, etc. are not practical and are just tricks to increase performance**. In this experiments, I avoid the above mentioned methods as much as possible, and I will try to achieve SOTA in a way that is as true to the basics as possible.
 * These results show only the best results for each evaluation set(Oxford5k, Paris6k, Holidays) among the results of applying the model generated during training. 
 That is, it is not a result of a single model. Of course, one model may yield the best results for all evaluation sets.
 * In case of npair loss, normalization is not performed in the last layer. The reason was not learned.
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 * pytorch gem [1-10][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
-* [1-11]&[2-3] are results using [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s [trained model]( http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/retrieval-SfM-120k/rSfM120k-tl-resnet101-gem-w-a155e54.pth)
+* [2] shows results using [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s [trained model]( http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/retrieval-SfM-120k/rSfM120k-tl-resnet101-gem-w-a155e54.pth)
 
 ##### update : 2020-04-02  (Currently in progress)
 
@@ -27,14 +27,14 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-10] | res101 | gem   |  |0.8487  |   0.7339   | 2048 | contrastive  |  SfM | imgnet | pt |
-| [1-11] | res101 | gem   |  |0.829  |   0.782  | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2] | res101 | gem   |  |0.829  |   0.782  | 2048 | contrastive  |  SfM | imgnet | pt |
 
 ##### update : 2020-04-02 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
+| [2]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-1]  | res101 | r-mac  | 0.6058 |  0.4156 | 0.1421   | 0.828 |  0.6759 | 0.4418 | 2048 | triplet  |  nc | imgnet | pt |
 | [2-2]  | res101 | gem  | 0.6995 |  0.4869 | 0.174   | 0.844 |  0.671 | 0.413 | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-3]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
 
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
