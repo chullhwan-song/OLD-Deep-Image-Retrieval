@@ -11,7 +11,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * using tensorflow(tf) and pytorch(pt)
 * P of the gem was fixed at 3. In the future, I plan to continue tuning around 3. > [hint](https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/issues/7)
 * pytorch gem [1-10][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
-* [1-11]&[2-3] are results using [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)' [trained model]( http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/retrieval-SfM-120k/rSfM120k-tl-resnet101-gem-w-a155e54.pth)
+* [1-11]&[2-3] are results using [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s [trained model]( http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/retrieval-SfM-120k/rSfM120k-tl-resnet101-gem-w-a155e54.pth)
 
 ##### update : 2020-04-02  (Currently in progress)
 
