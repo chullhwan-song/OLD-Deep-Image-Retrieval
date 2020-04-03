@@ -34,7 +34,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
 | [2]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-1]  | res101 | r-mac  | 0.6058 |  0.4156 | 0.1421   | 0.828 |  0.6759 | 0.4418 | 2048 | triplet  |  nc | imgnet | pt |
-| [2-2]  | res101 | gem  | 0.6995 |  0.4869 | 0.174   | 0.844 |  0.671 | 0.413 | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-2]  | res101 | gem  | 0.705 |  0.4947 | 0.1899   | 0.849 |  0.6757 | 0.4183 | 2048 | contrastive  |  SfM | imgnet | pt |
 
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
