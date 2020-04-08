@@ -25,18 +25,18 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-6] | res152 | spoc        | 0.8845| 0.8322  |  0.7184 | 1024 | npairs  |  nc | imgnet | tf |
 | [1-7] | res152 | spoc:single | 0.8813 | 0.8306 |  0.7184  | 1024 | npairs  |  nc | imgnet | tf |
 | [1-8] | res101 | r-mac  | 0.8527 |  0.9104 | 0.8018   | 2048 | triplet  |  nc | imgnet | pt |
-| [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   **0.808**   | 2048 | triplet  |  nc | imgnet | pt |
+| [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   0.808   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-10] | res101 | gem   |  |0.8487  |   0.7339   | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2] | res101 | gem   |  |0.829  |   0.782  | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-3]  | res101 | gem  | | 0.9276 | 0.8605 | 2048 | arcface  |  GDV1 | imgnet | pt |
+| [2-3]  | res101 | gem  | | 0.9276 | **0.8605** | 2048 | arcface  |  GDV1 | imgnet | pt |
 
 ##### update : 2020-04-08 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
-| [2]  | res101 | gem  | 0.7389 |  0.539 | 0.247   | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-1]  | res101 | r-mac  | 0.6058 |  0.4156 | 0.1421   | 0.828 |  0.6759 | 0.4418 | 2048 | triplet  |  nc | imgnet | pt |
-| [2-2]  | res101 | gem  | 0.706 |  0.495 | 0.19   | 0.849 |  0.6757 | 0.4183 | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-3]  | res101 | gem  | 0.8049 |  0.6346 | 0.3701   | 0.9006 |  0.7959 | 0.6116 | 2048 | arcface  |  GDV1 | imgnet | pt |
+| [2]  | res101 | gem     | 0.7389 |  0.539  | 0.247    | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-1]  | res101 | r-mac | 0.6058 |  0.4156 | 0.1421   | 0.828 |  0.6759 | 0.4418 | 2048 | triplet  |  nc | imgnet | pt |
+| [2-2]  | res101 | gem   | 0.706  |  0.495  | 0.19     | 0.849 |  0.6757 | 0.4183 | 2048 | contrastive  |  SfM | imgnet | pt |
+| [2-3]  | res101 | gem   | 0.8049 |  0.6346 | 0.3701   | 0.9006 |  0.7959 | 0.6116 | 2048 | arcface  |  GDV1 | imgnet | pt |
 
 * refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
