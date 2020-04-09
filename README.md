@@ -13,7 +13,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 * pytorch gem [1-10][2-2] : Code for reproducing [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch) > Some code modifed 
 * [2] shows results using [fintuned-gem](https://github.com/filipradenovic/cnnimageretrieval-pytorch)'s [trained model]( http://cmp.felk.cvut.cz/cnnimageretrieval/data/networks/retrieval-SfM-120k/rSfM120k-tl-resnet101-gem-w-a155e54.pth)
 
-##### update : 2020-04-08  (Currently in progress)
+##### update : 2020-04-09  (Currently in progress)
 
 | NO | net| feat | Holidays  | Paris6k  | Oxf5k |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
@@ -30,7 +30,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [2] | res101 | gem   |  |0.829  |   0.782  | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-3]  | res101 | gem  | | 0.9323 | **0.8979** | 512 | arcface  |  GDV1 | imgnet | pt |
 
-##### update : 2020-04-08 (Currently in progress)
+##### update : 2020-04-09 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
 | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---:|:---: |:---: |:---: |:---: |:---: |:---: |
 | [2]  | res101 | gem     | 0.7389 |  0.539  | 0.247    | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
