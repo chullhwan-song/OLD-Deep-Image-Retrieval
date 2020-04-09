@@ -38,7 +38,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [2-2]  | res101 | gem   | 0.706  |  0.495  | 0.19     | 0.849 |  0.6757 | 0.4183 | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-3]  | res101 | gem   | 0.82 |  0.6704 | 0.4226   | 0.9157 |  0.8061 | 0.6319 | 512 | arcface  |  GDV1 | imgnet | pt |
 
-* refer[1-1]] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
+* refer[1-1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
 * SfM: retrieval-SfM-120k
 * GDV1 : google landmark V1
