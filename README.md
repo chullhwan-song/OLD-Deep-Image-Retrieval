@@ -28,7 +28,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [1-9] | res152 | r-mac  | 0.8468 |  **0.935** |   0.808   | 2048 | triplet  |  nc | imgnet | pt |
 | [1-10] | res101 | gem   |  |0.8487  |   0.7339   | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2] | res101 | gem   |  |0.829  |   0.782  | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-3]  | res101 | gem  | | 0.9323 | **0.8979** | 512 | arcface  |  GDV1 | imgnet | pt |
+| [2-3]  | res101 | gem  | | 0.9323 | **0.9185** | 512 | arcface  |  GDV1 | imgnet | pt |
 
 ##### update : 2020-04-09 (Currently in progress)
 | NO | net| feat | rox_e  | rox_m  | rox_h | rpa_e  | rpa_m  | rpa_h |  dim | loss | trainset | pre-trained| lib |
@@ -36,7 +36,7 @@ That is, it is not a result of a single model. Of course, one model may yield th
 | [2]  | res101 | gem     | 0.7389 |  0.539  | 0.247    | 0.8467 |  0.659 | 0.388 | 2048 | contrastive  |  SfM | imgnet | pt |
 | [2-1]  | res101 | r-mac | 0.6058 |  0.4156 | 0.1421   | 0.828 |  0.6759 | 0.4418 | 2048 | triplet  |  nc | imgnet | pt |
 | [2-2]  | res101 | gem   | 0.706  |  0.495  | 0.19     | 0.849 |  0.6757 | 0.4183 | 2048 | contrastive  |  SfM | imgnet | pt |
-| [2-3]  | res101 | gem   | 0.82 |  0.6704 | 0.4226   | 0.9157 |  0.8061 | 0.6319 | 512 | arcface  |  GDV1 | imgnet | pt |
+| [2-3]  | res101 | gem   | 0.8512 |  0.7097 | 0.4665   | 0.9157 |  0.8061 | 0.6319 | 512 | arcface  |  GDV1 | imgnet | pt |
 
 * refer[1-1] : Neural Codes for Image Retrieval : [[paper]](https://arxiv.org/abs/1404.1777)[[review]](https://github.com/chullhwan-song/Reading-Paper/issues/14)
 * nc: neuralcode clean dataset
